@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to LearnFlow</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .welcome-container {
+      background: #ffffff;
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 700px;
+      width: 90%;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #333;
+    }
+
+    p {
+      color: #555;
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    .cta-buttons {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .cta-buttons a {
+      background: #7a4fff;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .cta-buttons a:hover {
+      background: #5b35b1;
+      transform: translateY(-2px);
+    }
+
+    .illustration {
+      width: 100%;
+      max-width: 300px;
+      margin: 25px auto;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <h1>Welcome to LearnFlow 🎓</h1>
+    <p>Start your learning journey today — stay consistent, track your progress, and grow daily!</p>
+    
+    <img class="illustration" src="https://cdn-icons-png.flaticon.com/512/2920/2920213.png" alt="Learning Illustration">
+    
+    <div class="cta-buttons">
+      <a href="schedule.html">📅 View Schedule</a>
+      <a href="streak.html">🔥 Check Streak</a>
+    </div>
+
+    <footer>
+      © 2025 LearnFlow — Empowering Lifelong Learners
+    </footer>
+  </div>
+</body>
+</html>
